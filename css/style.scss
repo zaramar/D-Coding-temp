@@ -1,6 +1,8 @@
-.dropdown-menu{
-  background-color: #ba0000;
-}
+@import "../scss/bootstrap.scss";
+@import "../scss/_variables.scss";
+@import "../scss/_functions.scss";
+@import "../scss/_dropdown.scss";
+
 @media (min-width: 576px) { /* CSS для экранов размером: 576px – 767px */ }
 @media (min-width: 768px) {  /* CSS для: 768px – 991px */ }
 @media (min-width: 992px) { /* CSS для: 992px – 1119px */ }
@@ -14,6 +16,9 @@
 /*.ppl.px-1{ padding-right: 1.109489%!important;padding-left: 1.109489%!important; }*/
 
  /* CSS для экранов больше 1200px */ }
+.dropdown-menu>.top-ddm{
+  $dropdown-bg: $red-600;
+}
 .cpr{
   margin-left:  2.564103%!important;
 }
